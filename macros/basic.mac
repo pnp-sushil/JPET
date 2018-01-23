@@ -1,0 +1,7 @@
+/run/initialize
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/run/setCutForAGivenParticle e-  7. mm
+/run/printProgress 100000
+/run/beamOn 1000000

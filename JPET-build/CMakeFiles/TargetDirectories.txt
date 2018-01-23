@@ -1,0 +1,7 @@
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/install.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/list_install_components.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/rebuild_cache.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/install/strip.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/install/local.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/J-PET.dir
+/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="J-PET" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\geant4-build\;CMake Files\..\..\..\geant4-build\Modules\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\cadmesh-1.1.0\;CMake Files\..\..\..\geant4.10.03.p03\;CMake Files\..\..\..\geant4.10.03.p03\cmake\;CMake Files\..\..\..\geant4.10.03.p03\cmake\Modules\;CMake Files\macros\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="J-PET">
+         <Option output="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/J-PET" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DG4_STORE_TRAJECTORY" />
+            <Add option="-DG4VERBOSE" />
+            <Add option="-DG4UI_USE" />
+            <Add option="-DG4VIS_USE" />
+            <Add option="-DG4MULTITHREADED" />
+            <Add option="-DG4UI_USE_TCSH" />
+            <Add option="-DG4INTY_USE_QT" />
+            <Add option="-DG4UI_USE_QT" />
+            <Add option="-DG4VIS_USE_OPENGLQT" />
+            <Add option="-DG4INTY_USE_XT" />
+            <Add option="-DG4VIS_USE_OPENGLX" />
+            <Add option="-DG4VIS_USE_OPENGL" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4-build/source/externals/zlib" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/accumulables/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/csv/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/g4tools/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/hntools/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/root/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/xml/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/detector/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/digits/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/hits/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/scorer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/error_propagation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/event/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/externals/clhep/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/externals/zlib/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/biasing/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/divisions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/magneticfield/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/navigation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/Boolean/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/CSG/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/specific/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/volumes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPGeometry/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPNumerics/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPRandom/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/graphics_reps/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/intercoms/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/GAG/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/basic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/common/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/materials/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/parameterisations/gflash/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/adjoint/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/bosons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/barions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/ions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/mesons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/leptons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/shortlived/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/ascii/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/gdml/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/mctruth/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/builders/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/electromagnetic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/factory/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/gamma_lepto_nuclear/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/hadron_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/hadron_inelastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/ions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/limiters/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/stopping/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/lists/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/generic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/importance/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/cuts/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/adjoint/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/models/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/molecules/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/molecules/types/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/processes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/highenergy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/lowenergy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/muons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/pii/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/polarisation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/standard/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/xrays/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/cross_sections/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/abla/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/abrasion/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/binary_cascade/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/cascade/cascade/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/coherent_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/ablation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/fermi_breakup/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/fission/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/gem_evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/handler/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/multifragmentation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/photon_evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/em_dissociation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/fission/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/im_r_matrix/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/incl_physics/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/interface/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/lend/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/lepto_nuclear/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/particle_hp/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/diffraction/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/hadronization/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/qgsm/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/pre_equilibrium/exciton_model/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/qmd/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/quasi_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/radioactive_decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/rpg/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/theo_high_energy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/processes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/stopping/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/optical/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/parameterisation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/phonon/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/scoring/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/transportation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/readout/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/run/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/track/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/tracking/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/FukuiRenderer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/HepRep/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/OpenGL/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/RayTracer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/Tree/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/VRML/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/XXX/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/externals/gl2ps/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/gMocren/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/modeling/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.9" />
+            <Add directory="/usr/include/c++/4.9/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 J-PET" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="J-PET/fast">
+         <Option output="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/J-PET" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DG4_STORE_TRAJECTORY" />
+            <Add option="-DG4VERBOSE" />
+            <Add option="-DG4UI_USE" />
+            <Add option="-DG4VIS_USE" />
+            <Add option="-DG4MULTITHREADED" />
+            <Add option="-DG4UI_USE_TCSH" />
+            <Add option="-DG4INTY_USE_QT" />
+            <Add option="-DG4UI_USE_QT" />
+            <Add option="-DG4VIS_USE_OPENGLQT" />
+            <Add option="-DG4INTY_USE_XT" />
+            <Add option="-DG4VIS_USE_OPENGLX" />
+            <Add option="-DG4VIS_USE_OPENGL" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4-build/source/externals/zlib" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/accumulables/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/csv/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/g4tools/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/hntools/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/root/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/analysis/xml/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/detector/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/digits/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/hits/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/scorer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/digits_hits/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/error_propagation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/event/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/externals/clhep/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/externals/zlib/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/biasing/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/divisions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/magneticfield/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/navigation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/Boolean/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/CSG/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/solids/specific/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/geometry/volumes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPGeometry/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPNumerics/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/HEPRandom/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/global/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/graphics_reps/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/intercoms/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/GAG/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/basic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/interfaces/common/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/materials/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/parameterisations/gflash/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/adjoint/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/bosons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/barions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/ions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/hadrons/mesons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/leptons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/shortlived/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/particles/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/ascii/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/gdml/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/persistency/mctruth/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/builders/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/electromagnetic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/factory/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/gamma_lepto_nuclear/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/hadron_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/hadron_inelastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/ions/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/limiters/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/constructors/stopping/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/lists/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/physics_lists/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/generic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/importance/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/biasing/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/cuts/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/adjoint/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/models/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/molecules/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/molecules/types/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/processes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/dna/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/highenergy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/lowenergy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/muons/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/pii/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/polarisation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/standard/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/electromagnetic/xrays/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/cross_sections/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/abla/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/abrasion/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/binary_cascade/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/cascade/cascade/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/coherent_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/ablation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/fermi_breakup/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/fission/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/gem_evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/handler/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/multifragmentation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/photon_evaporation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/de_excitation/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/em_dissociation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/fission/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/im_r_matrix/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/incl_physics/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/interface/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/inclxx/utils/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/lend/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/lepto_nuclear/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/particle_hp/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/diffraction/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/hadronization/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/parton_string/qgsm/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/pre_equilibrium/exciton_model/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/qmd/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/quasi_elastic/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/radioactive_decay/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/rpg/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/theo_high_energy/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/models/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/processes/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/stopping/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/hadronic/util/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/optical/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/parameterisation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/phonon/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/scoring/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/processes/transportation/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/readout/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/run/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/track/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/tracking/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/FukuiRenderer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/HepRep/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/OpenGL/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/RayTracer/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/Tree/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/VRML/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/XXX/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/externals/gl2ps/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/gMocren/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/management/include" />
+            <Add directory="/home/vision/GEANT4MT_GDML/geant4.10.03.p03/source/visualization/modeling/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.9" />
+            <Add directory="/usr/include/c++/4.9/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 J-PET/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/JPET-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/ActionInitialization.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/Analysis.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/DetectorConstruction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/EventAction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/PhysicsList.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/PrimaryGeneratorAction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/RunAction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/SensitiveHit.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/SensitiveSD.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/StackingAction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/include/SteppingAction.hh">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/main.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/ActionInitialization.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/DetectorConstruction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/EventAction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/PhysicsList.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/PrimaryGeneratorAction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/RunAction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/SensitiveHit.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/SensitiveSD.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/StackingAction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/src/SteppingAction.cc">
+         <Option target="J-PET"/>
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/Geant4ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/Geant4Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/Geant4LibraryDepends.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/UseGeant4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/UseGeant4_internal.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4-build/Modules/IntelCompileFeatures.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4-build\Modules\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../../../../usr/local/lib/cmake/cadmesh-1.1.0/cadmesh-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\cadmesh-1.1.0\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/../../../geant4.10.03.p03/cmake/Modules/CMakeMacroParseArguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\geant4.10.03.p03\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/macros/ui.mac">
+          <Option virtualFolder="CMake Files\macros\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/macros/vis.mac">
+          <Option virtualFolder="CMake Files\macros\" />
+      </Unit>
+      <Unit filename="/home/vision/GEANT4MT_GDML/Projects/JPET_Geo_share/JPET/macros/basic.mac">
+          <Option virtualFolder="CMake Files\macros\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
